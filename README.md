@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 - Solution URL: [https://github.com/ikreuz](https://github.com/ikreuz/base-apparel-coming-soon-challenge)
-- Live Site URL: [https://vercel.com]()
+- Live Site URL: [https://vercel.com](https://base-apparel-coming-soon-challenge-orpin.vercel.app)
 
 ## My process
 
