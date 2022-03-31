@@ -5,39 +5,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- displays site properly based on user's device -->
-
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
+    <link rel="icon" type="image/png" sizes="32x32" href="./src/images/favicon-32x32.png">
+    <link rel="stylesheet" href="./src/css/style.css">
     <title>Frontend Mentor | Base Apparel coming soon page</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-        .attribution {
-            font-size: 11px;
-            text-align: center;
-        }
-
-        .attribution a {
-            color: hsl(228, 45%, 44%);
-        }
-    </style>
 </head>
 
-<body>
+<body class="backdrop">
+    <main class="container">
+        <section class="layout-frontpage w-full">
+            <div class="layout-header">
+                <img src="./src/images/logo.svg" alt="Company logo">
+            </div>
+            <div class="layout-hero">
+                <!-- <img src="./src/images/hero-mobile.jpg" alt="Hero image"> -->
+            </div>
+            <div class="layout-body stripe">
+                <div class="layout-body__title">
+                    <h1>We're</h1>
+                    <p class="paragraph">coming soon</p>
 
-    We're coming soon
+                </div>
+                <div class="layout-body__content">
+                    Hello fellow shoppers! We're currently building our new fashion store.
+                    Add your email below to stay up-to-date with announcements and our launch deals.
+                </div>
+            </div>
+            <div class="layout-action stripe posrelative">
+                <div class="layout-action__input">
+                    <input type="email" name="email-input" id="email-si" placeholder="Email Address">
+                    <span id="email-error-si" aria-hidden="true" class="state-error-hidden posrelative">
+                        Please provide a valid email
+                    </span>
+                </div>
+                <button class="layout-action__btn" id="submit-si">
+                    <img src="./src/images/icon-arrow.svg" alt="">
+                </button>
+            </div>
+        </section>
+        <section class="layout-footer">
+            <p class="attribution">
+                Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+                Coded by <a href="https://github.com/ikreuz/">Victor Cruz</a>.
+            </p>
+        </section>
+    </main>
 
-    Hello fellow shoppers! We're currently building our new fashion store.
-    Add your email below to stay up-to-date with announcements and our launch deals.
-
-    Email Address
-
-    <footer>
-        <p class="attribution">
-            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-            Coded by <a href="#">Your Name Here</a>.
-        </p>
-    </footer>
+    <script src="./src/js/script.js"></script>
 </body>
 
 </html>
